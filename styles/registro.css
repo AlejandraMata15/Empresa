@@ -63,6 +63,15 @@ a:hover{
     height:40px;
 }
 
+#enviar:hover{
+    font-size:25px;
+    color:#773b9b;
+    background:rgb(226, 128, 210);
+    border:0px;
+    width:120px;
+    height:40px;
+}
+
 #bitito{
     width: 150px;
     position: relative;
