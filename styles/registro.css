@@ -7,10 +7,11 @@ p{
 }
 
 #principal{
-    margin: 2% auto;
+    margin: 5% auto;
     align-content: center;
     width: 70%;
     background-color: #444454;
+    height: 500px;
 }
 
 #titulo{
