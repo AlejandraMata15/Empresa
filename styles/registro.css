@@ -48,6 +48,22 @@ a:hover{
     text-align: center;
 }
 
+input{
+    width: 30%;
+}
+
+#usuario{
+    text-align: center;
+}
+
+#correo{
+    text-align: center;
+}
+
+#contraseña{
+    text-align: center;
+}
+
 #txtForm{
     text-align: center;
     font-size: 25px;
