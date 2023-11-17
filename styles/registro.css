@@ -7,7 +7,7 @@ p{
 }
 
 #principal{
-    margin: 5% auto;
+    margin: 2% auto;
     align-content: center;
     width: 70%;
     background-color: #444454;
@@ -65,6 +65,6 @@ a:hover{
 #bitito{
     width: 150px;
     position: relative;
-    top: -200px;
-    right: -100px;
+    top: -460px;
+    right: -10px;
 }
