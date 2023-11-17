@@ -71,6 +71,7 @@ input{
 }
 
 #enviar{
+    border-radius: 10px;
     font-size:25px;
     color:white;
     background:#9c74b4;
