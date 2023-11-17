@@ -22,9 +22,14 @@ p{
 a{
     outline: none;
     text-decoration: none;
+    color: #ffffff;
 }
 
 a:visited{
+    color: #ffffff;
+}
+
+a:active{
     color: #ffffff;
 }
 
