@@ -3,12 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro: BitaBit</title>
+    <title>Registro</title>
+    <link rel="icon" href="../imgs/favicon.png" type="image/png">
     <link rel="stylesheet" href="../styles/registro.css">
 </head>
 <body>
-    <div>
+    <div id="principal">
+        <br>
+        <div id="titulo">
+            <p id="titulo">Crear cuenta nueva</p>
+        </div>
+        <div id="regreso">
+            <p>¿Ya te has registrado? <a href="../index.html">ingresa aquí</a></p>
+        </div>
 
+        <div id="formulario">
+            <form action="/my-handling-form-page" method="post">
+                <ul style="list-style: none;">
+                  <li>
+                    <p id="txtForm">Usuario</p>
+                    <input type="text" id="usuario" />
+                  </li>
+                  <li>
+                    <p id="txtForm">Correo</p>
+                    <input type="email" id="correo" />
+                  </li>
+                  <li>
+                    <p id="txtForm">Contraseña</p>
+                    <input type="password" id="contraseña" />
+                  </li>
+                  <li class="button">
+                    <br><br>
+                    <button type="submit" id="enviar">Enviar</button>
+                  </li>                  
+                </ul>
+              </form>
+              <br>
+        </div>
     </div>
 </body>
 </html>
