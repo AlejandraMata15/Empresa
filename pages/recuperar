@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recuperar</title>
+    <link rel="icon" href="../imgs/favicon.png" type="image/png">
+    <link rel="stylesheet" href="../styles/recuperar.css">
+</head>
+<body>
+    <form class="form">
+     <img src="./imgs/mascota.PNG" alt="mascota"> 
+      <h1 class="form_title">¿Has olvidado tu contraseña?</h1>
+      <p class="form_text">Nueva contraseña</p>
+      <div id="regreso">
+         <a href="../registro.html"></a>
+    </div>
+  
+      <div class="container">
+        <div class="form_group">
+          <label for="usuario" class="form_label">USUARIO</label><br>
+          <input type="text" id="usuario" class="form_input"><br><br>
+        </div>
+        <button>ENVIAR</button>
+      </div>
+    </form>
+  </body> 
+  </div>
+  
+  
+  </body>
+</html>
