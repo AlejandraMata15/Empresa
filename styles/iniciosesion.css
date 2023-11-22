@@ -44,6 +44,28 @@ body{
 	left: 5px;
 }
 
+.form_a{
+	text-align: center;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color: #db74ca;
+}
+
+a:visited{
+    color: #ffffff;
+}
+
+a:active{
+    color: #ffffff;
+}	
+
 button{
 	background-color: #9c74b4;
 	color: #ffffff;
