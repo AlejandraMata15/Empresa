@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BitaBit</title>
+	<link rel="stylesheet" href="../styles/iniciosesion.css">
+  	<link rel="icon" href="../imgs/favicon.png" type="image/png">
+</head>
+<body>
+	<form class="form" action="../php/validarcodigo.php" method="post">
+    <img src="../imgs/mascota.PNG" alt="mascota">
+    <h2 class="form_title">Ingresa tu codigo de verificacion</h2>
+    
+    <div class="container">
+      <div class="form_group">
+        <label for="usuario" class="form_label">Codigo</label><br>
+        <input type="text" id="codigo" name="codigo" class="form_input"><br><br>
+      </div>
+      
+      <button type="submit" id="continuar">Continuar</button>
+
+    </div>
+  </form>
+</body>
+</html>
