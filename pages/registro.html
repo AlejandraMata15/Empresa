@@ -18,19 +18,19 @@
         </div>
 
         <div id="formulario">
-            <form action="/my-handling-form-page" action="enviarCorreo.php" method="post">
+            <form method="POST" action="../php/correo.php" id="miFormulario">
                 <ul style="list-style: none;">
                   <li>
                     <p id="txtForm">Usuario</p>
-                    <input type="text" id="usuario" />
+                    <input type="text" id="usuario" name="usuario" />
                   </li>
                   <li>
                     <p id="txtForm">Correo</p>
-                    <input type="email" id="correo" />
+                    <input type="email" id="correo" name="correo"/>
                   </li>
                   <li>
                     <p id="txtForm">Contraseña</p>
-                    <input type="password" id="contraseña" />
+                    <input type="password" id="contraseña" name="contraseña"/>
                   </li>
                   <li class="button">
                     <br>

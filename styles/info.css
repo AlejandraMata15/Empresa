@@ -1,0 +1,30 @@
+body{
+    background-image: url("../imgs/fondo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.cont{
+    /*display: flex;*/
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con opacidad (RGBA) */
+    color: white; /* Color del texto dentro del div */
+    padding: 50px; /* Espacio interno para el contenido */
+    width: 80%; /* Ancho del div */
+    margin: 0 auto; /* Centrar el div horizontalmente */
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+}
